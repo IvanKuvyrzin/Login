@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="250">
-            <Label  Content="Логин" Margin="102,10,93,0" FontFamily="Comic Sans MS"/>
-            <TextBox Height="35" Margin="0,10,0,10"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="250" Background="Azure">
+            <Label  Content="Логин" Margin="102,20,93,0" FontFamily="Comic Sans MS" RenderTransformOrigin="0.491,1.173"/>
+            <TextBox Height="35" Margin="17,10,15,10"/>
             <Label Content="Пароль" Margin="100,0,93,0" FontFamily="Comic Sans MS"/>
-            <TextBox Margin="0,0,0,10" Height="35"/>
+            <TextBox Margin="17,0,15,10" Height="35"/>
+            <Button Content="Войти" Margin="40,10" Height="35" FontFamily="Comic Sans MS" Background="AliceBlue"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="250">
+            <Label  Content="Логин" Margin="102,10,93,0" FontFamily="Comic Sans MS"/>
+            <TextBox Height="35" Margin="0,10,0,10"/>
+            <Label Content="Пароль" Margin="100,0,93,0" FontFamily="Comic Sans MS"/>
+            <TextBox Margin="0,0,0,10" Height="35"/>
+        </StackPanel>
+    </Grid>
+</Window>
